@@ -28,10 +28,10 @@ public class Score
 
 public class SomeEvilProgram
 {
-    public static void Main()
+    public static void testRun()
     {
         Score objScore = new Score();
-        objScore.setScore (9000);
+        objScore.setScore(9000);
         objScore.showScore();
         objScore.increaseScore();
         objScore.showScore();
